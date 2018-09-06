@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Conversor de moneda</string>
+    <string name="Valor">Valor a cambiar</string>
+    <string name="resultado">Resultado</string>
+    <string name="Calcular">Calcular</string>
+    <string-array name="datos">
+        <item>Peso_Colombiano</item>
+        <item>Peso_Uruguayo</item>
+        <item>Peso_Chileno</item>
+    </string-array>
+
+</resources>

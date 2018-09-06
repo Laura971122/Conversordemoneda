@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ConversorActivity">
+
+    <TextView
+        android:id="@+id/Moneda_actual"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="Moneda actual"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/Actual"
+        android:layout_width="match_parent"
+        android:layout_height="46dp">
+    </Spinner>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:id="@+id/Moneda_cambio"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="Moneda cambio"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/Cambio"
+        android:layout_width="match_parent"
+        android:layout_height="46dp" >
+    </Spinner>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Valor"
+        android:inputType="textPassword"
+        android:id="@+id/ValoraCambiar"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/aquamarine"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Calcular"
+        android:onClick="guardarClicked"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Resultado"
+        android:text="@string/resultado" />
+
+</LinearLayout>
